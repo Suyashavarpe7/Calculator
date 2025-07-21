@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interactive Calculator</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: #f2f2f2;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+    }
+    .calculator {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    .display {
+      width: 100%;
+      height: 50px;
+      font-size: 1.5rem;
+      padding: 6px 10px;
+      margin-bottom: 15px;
+      text-align: right;
+      border: 2px solid #ddd;
+      border-radius: 6px;
+      background: #f9f9f9;
+    }
+    .buttons {
+      display: grid;
+      grid-template-columns: repeat(4, 60px);
+      grid-gap: 10px;
+    }
+    .buttons button {
+      width: 60px;
+      height: 50px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .btn-num {
+      background: #e0e0e0;
+      color: #000;
+    }
+    .btn-op {
+      background: #ff9f00;
+      color: #fff;
+    }
+    .btn-equal {
+      background: #28a745;
+      color: #fff;
+      grid-column: span 2;
+    }
+    .btn-clear {
+      background: #dc3545;
+      color: #fff;
+      grid-column: span 2;
+    }
+    .buttons button:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="calculator">
+    <input type="text" id="display" class="display" readonly>
+    <div class="buttons">
+      <!-- Operators -->
+      <button class="btn-op" data-val="/">÷</button>
+      <button class="btn-op" data-val="*">×</button>
+      <button class="btn-op" data-val="-">−</button>
+      <button class="btn-op" data-val="+">+</button>
+
+      <!-- Numbers -->
+      <button class="btn-num" data-val="7">7</button>
+      <button class="btn-num" data-val="8">8</button>
+      <button class="btn-num" data-val="9">9</button>
+      <button class="btn-num" data-val="4">4</button>
+      <button class="btn-num" data-val="5">5</button>
+      <button class="btn-num" data-val="6">6</button>
+      <button class="btn-num" data-val="1">1</button>
+      <button class="btn-num" data-val="2">2</button>
+      <button class="btn-num" data-val="3">3</button>
+      <button class="btn-num" data-val="0">0</button>
+      <button class="btn-num" data-val=".">.</button>
+
+      <!-- Special -->
+      <button class="btn-clear">C</button>
+      <button class="btn-equal">=</button>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      const display = document.getElementById('display');
+      const numButtons = document.querySelectorAll('.btn-num');
+      const opButtons = document.querySelectorAll('.btn-op');
+      const clearBtn = document.querySelector('.btn-clear');
+      const equalBtn = document.querySelector('.btn-equal');
+
+      numButtons.forEach(btn =>
+        btn.addEventListener('click', () => display.value += btn.dataset.val)
+      );
+      opButtons.forEach(btn =>
+        btn.addEventListener('click', () => display.value += btn.dataset.val)
+      );
+      clearBtn.addEventListener('click', () => display.value = '');
+      equalBtn.addEventListener('click', calculate);
+
+      function calculate() {
+        if (!display.value) return;
+        try {
+          // Replace ÷ and × with JS operators
+          const expr = display.value.replace(/÷/g, '/').replace(/×/g, '*').replace(/−/g, '-');
+          display.value = eval(expr);
+        } catch {
+          display.value = 'Error';
+          setTimeout(() => display.value = '', 1500);
+        }
+      }
+
+      // Keyboard support: Enter for =, Escape to clear, others for typing
+      document.addEventListener('keydown', (e) => {
+        if (/[\d.+\-*/]/.test(e.key)) {
+          display.value += e.key;
+        } else if (e.key === 'Enter') {
+          e.preventDefault();
+          calculate();
+        } else if (e.key === 'Escape') {
+          display.value = '';
+        }
+      });
+    })();
+  </script>
+
+</body>
+</html>
