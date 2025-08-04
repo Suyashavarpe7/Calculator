@@ -7,7 +7,6 @@ A responsive and interactive scientific calculator built using HTML, CSS, and Ja
 ![Calculator UI](https://via.placeholder.com/600x400.png?text=Calculator+UI+Screenshot)
 
 ---
-
 ## 📋 Features
 
 * **Basic Operations**: Addition, subtraction, multiplication, division
@@ -26,7 +25,6 @@ A responsive and interactive scientific calculator built using HTML, CSS, and Ja
 * **JavaScript**: Functionality and event handling
 
 ---
-
 ## 🚀 Getting Started
 
 1. **Clone the Repository**
