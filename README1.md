@@ -15,15 +15,12 @@ A responsive and interactive scientific calculator built using HTML, CSS, and Ja
 * **Parentheses Support**: For complex expressions
 * **Keyboard Shortcuts**: Enter for '=', Escape for 'C', numeric keys for digits
 * **Responsive Design**: Optimized for both desktop and mobile devices
-
 ---
-
 ## 🛠️ Technologies Used
 
 * **HTML5**: Structure and layout
 * **CSS3**: Styling and responsiveness
 * **JavaScript**: Functionality and event handling
-
 ---
 ## 🚀 Getting Started
 
