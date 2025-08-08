@@ -105,38 +105,48 @@
   const clearBtn = document.querySelector('.btn-clear');
   const equalBtn = document.querySelector('.btn-equal');
 
-  buttons.forEach(btn => {
-    btn.addEventListener('click', () => {
+  buttons.forEach(btn => 
+    {
+    btn.addEventListener('click', () =>
+      {
       const val = btn.dataset.val;
-      if (val === '=') {
+      if (val === '=') 
+      {
         calculate();
-      } else if (val === 'C') {
+      } else if (val === 'C') 
+      {
         display.value = '';
-      } else {
+      } else 
+      {
         display.value += val;
       }
     });
   });
 
-  function calculate() {
-    try {
+  function calculate() 
+  {
+    try 
+    {
       const result = math.evaluate(display.value);
       display.value = result;
-    } catch (e) {
+    } catch (e) 
+    {
       display.value = 'Error';
       setTimeout(() => display.value = '', 1500);
     }
   }
 
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') {
+  document.addEventListener('keydown', (e) => 
+    {
+    if (e.key === 'Enter')
+    {
       e.preventDefault();
       calculate();
-    } else if (e.key === 'Escape') {
+    } else if (e.key === 'Escape') 
+    {
       display.value = '';
     }
   });
 </script>
-
 </body>
 </html>
