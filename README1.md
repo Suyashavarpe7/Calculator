@@ -34,7 +34,6 @@ A responsive and interactive scientific calculator built using HTML, CSS, and Ja
    Open `index.html` in your preferred web browser.
 
 ---
-
 ## 📂 File Structure
 
 ```
@@ -43,7 +42,6 @@ A responsive and interactive scientific calculator built using HTML, CSS, and Ja
 ├── style.css        # Stylesheet for the calculator
 └── script.js        # JavaScript file containing calculator logic
 ```
-
 ---
 
 ## 🖼️ Calculator UI Screenshot
