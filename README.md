@@ -8,7 +8,7 @@ A responsive and interactive scientific calculator built using HTML, CSS, and Ja
 
 ---
 ## 📋 Features
-* **Basic Operations**: Addition, subtraction, multiplication, division
+* **Basic Operations**: Addition, subtraction, multiplication, division.
 * **Advanced Functions**: Sin, cos, tan, log, ln, exp, square root
 * **Scientific Constants**: π (pi), e
 * **Parentheses Support**: For complex expressions
