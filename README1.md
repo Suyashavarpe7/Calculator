@@ -4,6 +4,7 @@
 A responsive and interactive scientific calculator built using HTML, CSS, and JavaScript. This calculator supports basic arithmetic operations, trigonometric functions, logarithms,exponentiation, and more.
 
 ![Calculator UI](https://via.placeholder.com/600x400.png?text=Calculator+UI+Screenshot)
+
 ---
 ## 📋 Features
 * **Basic Operations**: Addition, subtraction, multiplication, division
@@ -50,4 +51,5 @@ A responsive and interactive scientific calculator built using HTML, CSS, and Ja
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ---
