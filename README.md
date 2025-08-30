@@ -1,6 +1,7 @@
 Certainly! Here's a comprehensive `README.md` for your scientific calculator project, complete with an example UI screenshot and detailed instructions.
 
 ---
+
 # 🧮 Scientific Calculator
 
 A responsive and interactive scientific calculator built using HTML, CSS, and JavaScript. This calculator supports basic arithmetic operations, trigonometric functions, logarithms, exponentiation,and more.
