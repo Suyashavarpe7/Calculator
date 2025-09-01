@@ -19,7 +19,8 @@ A responsive and interactive scientific calculator built using HTML, CSS, and Ja
 * **Parentheses Support**: For complex expressions
 * **Keyboard Shortcuts**: Enter for '=', Escape for 'C', numeric keys for digits
 * **Responsive Design**: Optimized for both desktop and mobile devices
----
+  
+---//9
 
 ## 🛠️ Technologies Used
 
@@ -41,7 +42,6 @@ A responsive and interactive scientific calculator built using HTML, CSS, and Ja
 2. **Open the Project**
 
    Open `index.html` in your preferred web browser.
-
 ---
 
 ## 📂 File Structure
