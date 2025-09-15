@@ -24,6 +24,7 @@ A responsive and interactive scientific calculator built using HTML, CSS, and Ja
 * **CSS3**: Styling and responsiveness
 * **JavaScript**: Functionality and event handling
 ---
+
 ## 🚀 Getting Started
 
 1. **Clone the Repository**
