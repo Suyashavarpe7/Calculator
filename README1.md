@@ -1,4 +1,3 @@
-
 # 🧮 Scientific Calculator
 
 A responsive and interactive scientific calculator built using HTML, CSS, and JavaScript. This calculator supports basic arithmetic operations, trigonometric functions, logarithms,exponentiation, and more.
