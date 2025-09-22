@@ -1,4 +1,4 @@
-Certainly! Here's a comprehensive `README.md` for your scientific calculator project, complete with an example UI screenshot and detailed instructions.
+ Here's a comprehensive `README.md` for your scientific calculator project, complete with an example UI screenshot and detailed instructions.
 
 ---
 
