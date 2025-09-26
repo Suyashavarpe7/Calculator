@@ -7,7 +7,7 @@ A responsive and interactive scientific calculator built using HTML, and JavaScr
 
 ---
 
-## 📋 Features
+_## 📋 Features_
 
 * **Basic Operations**: Addition, subtraction, multiplication, division.
 * **Advanced Functions**: Sin, cos, tan, log, ln, exp, square root
