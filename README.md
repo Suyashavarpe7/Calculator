@@ -1,12 +1,12 @@
 # 🧮 Scientific Calculator
 
-A responsive and interactive scientific calculator built using HTML, and JavaScript. This calculator supports basic arithmetic operations, trigonometric functions, logarithms, exponentiation,and more functionality.
+A responsive and interactive scientific calculator built using HTML and JavaScript. This calculator supports basic arithmetic operations, trigonometric functions, logarithms, exponentiation,and more functionality.
 
 ![Calculator UI](https://via.placeholder.com/600x400.png?text=Calculator+UI+Screenshot)
 
 ---
 
-_## 📋 Features_
+_## 📋Features_
 
 * **Basic Operations**: Addition, subtraction, multiplication, division.
 * **Advanced Functions**: Sin, cos, tan, log, ln, exp, square root
