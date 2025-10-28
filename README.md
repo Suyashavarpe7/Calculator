@@ -17,7 +17,7 @@ _## 📋Features of calculator_
 * **Keyboard Shortcuts**: Enter for '=', Escape for 'C', numeric keys for digits
 * **Responsive Design**: Optimized for both desktop and mobile devices
   
----//9
+---//
 
 ## 🛠️ Technologies Used
 
