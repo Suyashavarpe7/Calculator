@@ -21,8 +21,8 @@ _## 📋Features of calculator_
 
 ## 🛠️ Technologies Used
 
-* **HTML**: Structure and layout
-* **CSS3**: Styling and responsiveness
+* **HTML5**: Structure and layout
+* **CSS3**: Styling and responsiveness and creative 
 * **JavaScript**: Functionality and event handling
 
 ---
