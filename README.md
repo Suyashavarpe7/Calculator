@@ -9,7 +9,7 @@ A responsive and interactive scientific calculator built using HTML and JavaScri
 _## 📋 Features of calculator are_
 
 * **Basic Operations**: Addition, subtraction, multiplication, division.
-* **Advanced Functions**: Sin, cos, tan, log, ln, exp, square root
+* **Advanced Functions**: Sin, cos, tan, log, exp, square root
 * **Scientific Constants**: π (pi),e
 * **Parentheses Support**: For complex expressions
 * **Keyboard Shortcuts**: Enter for '=', Escape for 'C', numeric keys for digits
