@@ -2,8 +2,6 @@
 
 A responsive and interactive scientific calculator built using HTML and JavaScript and CSS. This calculator supports basic arithmetic operations, trigonometric functions and more functionality.
 
-(https://via.placeholder.com/600x400.png?text=Calculator+UI+Screenshot)
-
 ---
 
 _## 📋 Features of calculator are_
