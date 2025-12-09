@@ -10,7 +10,7 @@ _## 📋 Features of calculator are_
 * **Advanced Functions**: Sin, cos, tan, log, exp, square root
 * **Scientific Constants**: π (pi),e
 * **Parentheses Support**: For complex expressions
-* **Keyboard Shortcuts**: Enter for '=', Escape for 'C', numeric keys for digits
+* **Keyboard Shortcuts**: Enter for '=', Escape for 'C', numeric keys for digits.
 * **Responsive Design**: Optimized for both desktop and mobile devices
   
 ---//
