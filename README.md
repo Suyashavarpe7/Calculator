@@ -49,7 +49,7 @@ _## 📋 Features of calculator are_
 
 ## 🖼️ Calculator UI Screenshot
 
-![Calculator UI](https://via.placeholder.com/600x400.png?text=Calculator+UI+Screenshot)
+(https://via.placeholder.com/600x400.png?text=Calculator+UI+Screenshot)
 
 ---
 
