@@ -6,7 +6,7 @@ It is a responsive and interactive scientific calculator built using HTML and Ja
 
 _## 📋 Features of calculator are_
 
-* **Basic Operations**: Addition, subtraction, multiplication, division.
+* **Basic Operations**: Addition, subtraction,multiplication, division.
 * **Advanced Functions**: Sin, cos, tan, log, exp, square root
 * **Scientific Constants**: π (pi),e
 * **Parentheses Support**: For complex expressions
