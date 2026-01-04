@@ -1,6 +1,6 @@
 # 🧮 Scientific Calculator
 
-It is a responsive and interactive scientific calculator built using HTML and JavaScript and CSS. This calculator supports basic arithmetic operations, trigonometric functions and  functionality.
+It is a responsive and interactive scientific calculator built using HTML and JavaScript and CSS. This calculator supports basic arithmetic operations, trigonometric functions and more functionality.
 
 ---
 
