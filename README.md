@@ -4,7 +4,7 @@ It is a responsive and interactive scientific calculator built using HTML and Ja
 
 ---
 
-## 📋 Features of calculator are
+## 📋 Features of calculator 
 
 * **Basic Operations**: Addition, subtraction,multiplication, division.
 * **Advanced Functions**: Sin, cos, tan, log, exp, square root
