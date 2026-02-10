@@ -13,7 +13,7 @@ It is a responsive and interactive scientific calculator built using HTML and Ja
 * **Keyboard Shortcuts**: Enter for '=', Escape for 'C', numeric keys for digits.
 * **Responsive Design**: Optimized for both desktop and mobile devices
   
----//
+---
 
 ## 🛠️ Technologies Used are:-
 
